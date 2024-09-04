@@ -1,0 +1,24 @@
+.main-header {
+  padding: 1rem 3rem;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-header__cta {
+  color: white;
+
+  padding: 0.25rem 0.5rem;
+
+  border-radius: 100rem;
+  border: 0.1rem solid white;
+
+  background: none;
+}

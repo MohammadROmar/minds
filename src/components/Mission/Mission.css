@@ -1,0 +1,30 @@
+.mission {
+  display: grid;
+  grid-gap: 0 2rem;
+  align-items: center;
+  grid-template-columns: 6rem auto;
+  grid-template-rows: 6rem auto;
+}
+
+.mission__title {
+  color: var(--color__text);
+
+  font-size: var(--text__title-size);
+  font-family: "MonomaniacOne-Regular";
+}
+
+.mission__text-wrapper {
+  grid-column-start: 2;
+}
+
+.mission__objective,
+.mission__details {
+  color: var(--color__text);
+
+  font-size: var(--text__normal-size);
+  font-family: "Lato-Regular";
+}
+
+.mission__objective {
+  margin-bottom: 0.5rem;
+}

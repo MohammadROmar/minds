@@ -1,0 +1,19 @@
+.main-footer__decoration-circles {
+  position: absolute;
+  left: 0;
+  top: 50%;
+
+  translate: 0 -50%;
+
+  list-style: none;
+}
+
+.main-footer__circle {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.main-footer__circles-icon {
+  width: inherit;
+  height: inherit;
+}

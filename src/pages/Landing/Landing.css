@@ -1,0 +1,18 @@
+.services-wrapper {
+  padding: var(--padding-large);
+
+  background: url("../../assets/images/squares.png") center / cover no-repeat
+    border-box;
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.services__wrapper-icon {
+  position: absolute;
+  top: 1rem;
+  right: 0;
+}

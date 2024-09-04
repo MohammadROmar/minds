@@ -1,0 +1,26 @@
+.main-footer__navigation {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.main-footer__navigation-list {
+  list-style: none;
+
+  height: fit-content;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5rem 2rem;
+}
+
+.main-footer__navigation-item {
+  width: max-content;
+}
+
+.main-footer__navigation-link {
+  color: var(--color__text);
+
+  text-align: center;
+  text-decoration: none;
+  font-family: "Lato-Regular";
+}

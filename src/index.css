@@ -1,0 +1,47 @@
+:root {
+  --color__cta: #2aff59;
+  --color__text: white;
+
+  --text__title-size: 2.5rem;
+  --text__normal-size: 1.5rem;
+
+  --padding-large: 3rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #040404;
+  position: relative;
+}
+
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("./assets/fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: "LexendDeca-Bold";
+  src: url("./assets/fonts/LexendDeca-Bold.ttf");
+}
+
+@font-face {
+  font-family: "MonomaniacOne-Regular";
+  src: url("./assets/fonts/MonomaniacOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("./assets/fonts/Poppins-Bold.ttf");
+}

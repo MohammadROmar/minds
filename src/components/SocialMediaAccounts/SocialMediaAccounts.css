@@ -1,0 +1,73 @@
+.social-media-account {
+  aspect-ratio: 1 / 1;
+}
+
+.social-media-account__link {
+  position: relative;
+  cursor: auto;
+
+  height: 100%;
+
+  fill: var(--color__text);
+  transition: all 0.3s;
+
+  border-radius: 0.3rem;
+
+  display: block;
+}
+
+.social-media-account__link::after,
+.social-media-account__link::before {
+  content: "";
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  opacity: 0;
+
+  transform: rotate(20deg);
+  transition: all 0.3s ease;
+}
+
+.social-media-account__link::before {
+  content: attr(data-name);
+  width: max-content;
+
+  color: var(--color__text);
+
+  font-family: "Lato-Regular";
+
+  background-color: transparent;
+  border-radius: 5rem;
+
+  z-index: -1;
+}
+
+.social-media-account__icon:hover {
+  cursor: pointer;
+  fill: var(--fill-color);
+}
+
+.social-media-account__link:hover::before {
+  opacity: 1;
+
+  background-color: var(--fill-color);
+
+  width: max-content;
+  height: fit-content;
+
+  padding: 0.25rem 0.5rem;
+
+  transform: translateY(-3rem) rotate(0);
+}
+
+.social-media-account__link:hover::after {
+  border-left: 0.5rem solid transparent;
+  border-right: 0.5rem solid transparent;
+  border-top: 0.5rem solid var(--fill-color);
+
+  opacity: 1;
+
+  transform: translateY(-2rem) rotate(0);
+}

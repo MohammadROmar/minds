@@ -1,0 +1,29 @@
+.contact {
+  width: 100%;
+  padding: 1rem;
+
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact__title,
+.contact__email {
+  margin: 1rem 0;
+
+  font-family: "Lato-Regular";
+  font-size: var(--text__normal-size);
+
+  color: var(--color__text);
+}
+
+.contact__title {
+  opacity: 0.8;
+}
+
+.contact__email-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
