@@ -17,13 +17,15 @@
 
 html {
   overflow-x: hidden;
+
   scrollbar-width: none;
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: #040404;
   position: relative;
+
+  background-color: #040404;
 }
 
 @font-face {

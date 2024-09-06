@@ -21,4 +21,13 @@
   border: 0.1rem solid white;
 
   background: none;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.main-header__cta:hover {
+  color: black;
+  background-color: white;
 }

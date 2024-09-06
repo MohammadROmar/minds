@@ -10,4 +10,31 @@
 
   text-decoration: none;
   font-family: "Lato-Regular";
+
+  position: relative;
+}
+
+.main-header__navigation-link::after {
+  content: "";
+
+  width: 0;
+  height: 0.25rem;
+  margin-top: 0.75rem;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  translate: -50% -50%;
+
+  border-radius: 100rem;
+  background-color: white;
+
+  transition: 0.3s;
+}
+
+.main-header__navigation-link:hover::after {
+  content: "";
+
+  width: 100%;
 }

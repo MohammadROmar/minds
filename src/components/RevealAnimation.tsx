@@ -21,7 +21,7 @@ export default function Reveal<T extends ElementType>({
 
   const ref = useRef<HTMLDivElement>(null);
 
-  const isInView = useInView(ref, { once: true, margin: "-25%" });
+  const isInView = useInView(ref, { once: true, margin: "-20%" });
   const animationController = useAnimation();
 
   useEffect(() => {
